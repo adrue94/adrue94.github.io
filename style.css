@@ -1,0 +1,58 @@
+.container{
+    margin: 0 auto;
+}
+
+#main-bio{
+    float: left;
+    width: 70%;
+}
+
+#contact-info{
+    float: left;
+    width: 30%;
+}
+
+#figure{
+    position: relative;
+}
+
+#bio-image{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 220px;
+    margin: 20px;
+}
+
+#bio-name{
+    position: absolute;
+    top: 180px;
+    left: 155px;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: #eee;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    background-color: #efeee7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: #eee;
+    background-color: #333333;
+}
+
+h2{
+    font-size: 24px;
+}
+
