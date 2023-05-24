@@ -1,55 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-  <style>table, th, td {
-    border: 1px solid black;
-  }</style>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <title>Adrue94</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <h1> Welcome to Aldo's Page </h1>
-	<img src="https://cdn.discordapp.com/attachments/871768098271809556/1046122957975588936/group.jpg" alt = "Picture of My Cat"  
-  width="600" height="330">
-    <i> Maya </i>
-        <p> Hi everyone. My name is Aldo, but I go by Lee. Nice to meet you.<br>
-            I grew up in Hong Kong, but spent most of my adult life in the U.S.</p>
-    <h3> Socials </h3>
-    <ol>
+
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <img id="bio-image" src="https://cdn.discordapp.com/attachments/871768098271809556/1046122957975588936/group.jpg"
+        alt="Totally me">
+        <h2 id="bio-name">Aldo Drue</h2>
+      </section>
+      <p>Hi everyone, welcome to my page. My name is Aldo but I go by Lee. I grew up in East Asia, but spent most of my adult life in the U.S. <br>
+        Growing up parts of my life felt like fever dream; escaping a burning mansion, departing a failing country, visiting America, 
+        getting my ass beat by school prefects and avoiding riot police. Nowadays life is tame (which is good). In the meantime, go check out 
+        <a href="/jhin_test.html">Jhin's</a> page and theme for more fun.
+      </p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
         <li><a href="https://www.linkedin.com/in/aldo-drue-39563282/"> LinkedIn </a></li>
         <li><a href="https://twitter.com/hyhylee"> Twitter </a></li>
-        <li> <a href="mailto:tempemail@gmail.com"> Email </a></li>
-    </ol>
+        <li><a href="mailto:tempemail@gmail.com"> Email </a></li>
+      </ul>
+    </aside>
+  </main>
 
-    <table>
-      <tr>
-        <th>Books</th>
-        <th>Movies</th>
-        <th>Games</th>
-      </tr>
-      <tr>
-        <td> Consider Phleabas </td>
-        <td> Parasite </td>
-        <td> Disco Elysium </td>
-      </tr>
-      <tr>
-        <td> The Sympathizer </td>
-        <td> Django Uncahined </td>
-        <td> Mass Effect </td>
-      </tr>
-      <tr>
-        <td> New American Stories </td>
-        <td> Kung Fu Hustle </td>
-        <td> KoTOR 2 </td>
-      </tr>
-    </table>
-    <br> 
-    <br>
-    Go check out<a href="/jhin_test.html"> Jhin's </a> page and theme.
-    <br> 
-    <iframe width="420" height="315"
-    src="https://www.youtube.com/embed/NSQZqVsaKWY">
-    </iframe>
-    
 </body>
 </html>
